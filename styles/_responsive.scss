@@ -1,0 +1,48 @@
+@media (min-width: $laptop){
+    body {
+        height: fit-content;
+        background: url(../images/bg-pattern-desktop.svg);
+    }
+    header{
+        width: 50%;
+        margin: 0 13.5rem;
+        img{
+            width: 150px;
+        }
+    }
+
+    .container{
+        max-width: 1440px;
+        display: flex;
+        height: 100vh;
+    }
+    picture {
+        order: 3;
+        height: 100vh;
+        position: relative;
+        top: -8.5rem;
+        right: 0;
+    }
+    .main-container{
+        width: 50%;
+        margin: 3.7rem;
+    }
+    .container--description{
+        p {
+            width: 22rem;
+        }
+    }
+    h1 {
+        text-align: left;
+        margin: 0 1.3rem;
+        font-size: $font-title*1.5;
+        line-height: $font-title*1.5;
+    }
+    p {
+        text-align: left;
+    }
+    .form{
+        width: 22rem;
+        margin-right: 9rem;
+    }
+}
